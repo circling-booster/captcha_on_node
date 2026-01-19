@@ -1,0 +1,13 @@
+{
+  "name": "captcha-inference-node",
+  "version": "1.0.0",
+  "description": "CAPTCHA Inference using ONNX Runtime",
+  "main": "inference.js",
+  "scripts": {
+    "start": "node inference.js"
+  },
+  "dependencies": {
+    "onnxruntime-node": "^1.16.0",
+    "sharp": "^0.33.0"
+  }
+}
